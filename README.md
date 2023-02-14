@@ -1,38 +1,17 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# NextJS 13 Youtube Video & Audio Downloader 📹🎵
 
-## Getting Started
+Este site foi construído utilizando o framework NextJS 13, oferecendo uma solução para o download de vídeos e áudios do YouTube. A funcionalidade é simples: basta copiar a URL do vídeo desejado e colá-lo no site. O processo de download será iniciado automaticamente. Embora o objetivo inicial tenha sido fornecer uma solução rápida para testes, há planos para continuar o desenvolvimento no futuro com o objetivo de melhorar a experiência do usuário. 🚀
 
-First, run the development server:
+## Pré-requisitos 🧪
+- Yarn (recomendado) 🧶
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+## Instalação 💻
+1. Clone este repositório 🗂️
+2. Navegue até o diretório do projeto 🚶‍♂️
+3. Execute o comando `yarn` ou `npm install` para instalar as dependências 🔧
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Execução 🏃‍♂️
+Execute o comando `yarn dev` ou `npm run dev` para iniciar a aplicação em modo de desenvolvimento 💻.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Contato 📞
+Se você tiver alguma dúvida ou sugestão, não hesite em me contactar pelo Instagram @crash_unix 💬.
