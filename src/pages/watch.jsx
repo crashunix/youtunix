@@ -71,7 +71,7 @@ export default function Watch({ videoInfo }) {
                 <div className="flex flex-col">
                     <form className="flex flex-col">
                         {formats.map(format => (
-                            <label key={format.itag} className="bg-gray-600 grid grid-cols-2">
+                            <label key={format.itag} className="bg-gray-600 grid grid-cols-3">
                                 <div className="flex items-center">
                                     <input
                                         type="radio"
@@ -82,7 +82,7 @@ export default function Watch({ videoInfo }) {
                                     />
                                     <span>{format.qualityLabel}</span>
                                 </div>
-                                {/* <span>{format.container}</span> */}
+                                <span>{format.container}</span>
                                 <div>{format.audioQuality == 'AUDIO_QUALITY_LOW' ? '🟥' : format.audioQuality == 'AUDIO_QUALITY_MEDIUM' ? '🟨' : format.audioQuality}{format.hasAudio && '🎵'}{format.hasVideo && '📺'}</div>
                             </label>
                         ))}
